@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "37dc9adc4c0d3066d7d15c88183b9066",
+    "content-hash": "d0e1f9c4c0e0f99f0a62df74c047667e",
     "packages": [
         {
             "name": "api-platform/api-pack",
@@ -48,12 +48,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/api-platform/core.git",
-                "reference": "c1482befc57e051703a09f1f9b35e81a3241a2c3"
+                "reference": "66ee1ba56fa31e5bf26dd6bdf0c720450eb9298a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/api-platform/core/zipball/c1482befc57e051703a09f1f9b35e81a3241a2c3",
-                "reference": "c1482befc57e051703a09f1f9b35e81a3241a2c3",
+                "url": "https://api.github.com/repos/api-platform/core/zipball/66ee1ba56fa31e5bf26dd6bdf0c720450eb9298a",
+                "reference": "66ee1ba56fa31e5bf26dd6bdf0c720450eb9298a",
                 "shasum": ""
             },
             "require": {
@@ -182,7 +182,7 @@
                 "rest",
                 "swagger"
             ],
-            "time": "2019-03-26T18:52:08+00:00"
+            "time": "2019-03-27T10:46:14+00:00"
         },
         {
             "name": "beberlei/DoctrineExtensions",
@@ -6196,6 +6196,36 @@
             "description": "Symfony Serializer Component",
             "homepage": "https://symfony.com",
             "time": "2019-02-23T15:17:42+00:00"
+        },
+        {
+            "name": "symfony/serializer-pack",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/serializer-pack.git",
+                "reference": "c5f18ba4ff989a42d7d140b7f85406e77cd8c4b2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/serializer-pack/zipball/c5f18ba4ff989a42d7d140b7f85406e77cd8c4b2",
+                "reference": "c5f18ba4ff989a42d7d140b7f85406e77cd8c4b2",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/annotations": "^1.0",
+                "php": "^7.0",
+                "phpdocumentor/reflection-docblock": "^3.0|^4.0",
+                "symfony/property-access": "*",
+                "symfony/property-info": "*",
+                "symfony/serializer": "*"
+            },
+            "type": "symfony-pack",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A pack for the Symfony serializer",
+            "time": "2018-12-10T12:14:14+00:00"
         },
         {
             "name": "symfony/stopwatch",

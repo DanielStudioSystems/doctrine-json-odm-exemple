@@ -31,6 +31,7 @@
     "symfony/monolog-bundle": "^3.3.1",
     "symfony/profiler-pack": "^1.0.4",
     "symfony/security-bundle": "4.2.*",
+    "symfony/serializer-pack": "^1.0",
     "symfony/translation": "4.2.*",
     "symfony/twig-bundle": "^4.2.2",
     "symfony/web-server-bundle": "4.2.*",
